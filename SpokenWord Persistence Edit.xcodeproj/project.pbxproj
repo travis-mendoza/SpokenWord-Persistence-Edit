@@ -14,6 +14,8 @@
 		FB5FA5682429637900D45CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5FA5672429637900D45CE9 /* Assets.xcassets */; };
 		FB5FA56B2429637900D45CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5FA5692429637900D45CE9 /* LaunchScreen.storyboard */; };
 		FB5FA5762429637A00D45CE9 /* SpokenWord_Persistence_EditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5FA5752429637A00D45CE9 /* SpokenWord_Persistence_EditTests.swift */; };
+		FB5FA5822429641700D45CE9 /* RecognitionTaskStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5FA5812429641700D45CE9 /* RecognitionTaskStatus.swift */; };
+		FB5FA586242967F700D45CE9 /* APPLE LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB5FA585242967F700D45CE9 /* APPLE LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		FB5FA5712429637A00D45CE9 /* SpokenWord Persistence EditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpokenWord Persistence EditTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5FA5752429637A00D45CE9 /* SpokenWord_Persistence_EditTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpokenWord_Persistence_EditTests.swift; sourceTree = "<group>"; };
 		FB5FA5772429637A00D45CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5FA5812429641700D45CE9 /* RecognitionTaskStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecognitionTaskStatus.swift; path = ../RecognitionTaskStatus.swift; sourceTree = "<group>"; };
+		FB5FA585242967F700D45CE9 /* APPLE LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "APPLE LICENSE.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 				FB5FA55D2429637700D45CE9 /* SpokenWord Persistence Edit */,
 				FB5FA5742429637A00D45CE9 /* SpokenWord Persistence EditTests */,
 				FB5FA55C2429637700D45CE9 /* Products */,
+				FB5FA58924296F0000D45CE9 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,12 +84,13 @@
 		FB5FA55D2429637700D45CE9 /* SpokenWord Persistence Edit */ = {
 			isa = PBXGroup;
 			children = (
+				FB5FA5622429637700D45CE9 /* ViewController.swift */,
+				FB5FA5812429641700D45CE9 /* RecognitionTaskStatus.swift */,
+				FB5FA5642429637700D45CE9 /* Main.storyboard */,
+				FB5FA5692429637900D45CE9 /* LaunchScreen.storyboard */,
 				FB5FA55E2429637700D45CE9 /* AppDelegate.swift */,
 				FB5FA5602429637700D45CE9 /* SceneDelegate.swift */,
-				FB5FA5622429637700D45CE9 /* ViewController.swift */,
-				FB5FA5642429637700D45CE9 /* Main.storyboard */,
 				FB5FA5672429637900D45CE9 /* Assets.xcassets */,
-				FB5FA5692429637900D45CE9 /* LaunchScreen.storyboard */,
 				FB5FA56C2429637900D45CE9 /* Info.plist */,
 			);
 			path = "SpokenWord Persistence Edit";
@@ -97,6 +103,14 @@
 				FB5FA5772429637A00D45CE9 /* Info.plist */,
 			);
 			path = "SpokenWord Persistence EditTests";
+			sourceTree = "<group>";
+		};
+		FB5FA58924296F0000D45CE9 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				FB5FA585242967F700D45CE9 /* APPLE LICENSE.txt */,
+			);
+			path = LICENSE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5FA586242967F700D45CE9 /* APPLE LICENSE.txt in Resources */,
 				FB5FA56B2429637900D45CE9 /* LaunchScreen.storyboard in Resources */,
 				FB5FA5682429637900D45CE9 /* Assets.xcassets in Resources */,
 				FB5FA5662429637700D45CE9 /* Main.storyboard in Resources */,
@@ -202,6 +217,7 @@
 			files = (
 				FB5FA5632429637700D45CE9 /* ViewController.swift in Sources */,
 				FB5FA55F2429637700D45CE9 /* AppDelegate.swift in Sources */,
+				FB5FA5822429641700D45CE9 /* RecognitionTaskStatus.swift in Sources */,
 				FB5FA5612429637700D45CE9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

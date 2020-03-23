@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Apple&apos;s Speech Recognition will be used to transcribe the words it discerns in your speech to the screen.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Your device&apos;s microphone will be used to record once you press &quot;Start&quot;. It will quit when you press &quot;Stop&quot;.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

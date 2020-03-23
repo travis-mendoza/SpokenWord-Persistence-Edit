@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB5FA55F2429637700D45CE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5FA55E2429637700D45CE9 /* AppDelegate.swift */; };
+		FB5FA5612429637700D45CE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5FA5602429637700D45CE9 /* SceneDelegate.swift */; };
+		FB5FA5632429637700D45CE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5FA5622429637700D45CE9 /* ViewController.swift */; };
+		FB5FA5662429637700D45CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5FA5642429637700D45CE9 /* Main.storyboard */; };
+		FB5FA5682429637900D45CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5FA5672429637900D45CE9 /* Assets.xcassets */; };
+		FB5FA56B2429637900D45CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5FA5692429637900D45CE9 /* LaunchScreen.storyboard */; };
+		FB5FA5762429637A00D45CE9 /* SpokenWord_Persistence_EditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5FA5752429637A00D45CE9 /* SpokenWord_Persistence_EditTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB5FA5722429637A00D45CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5FA5532429637700D45CE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5FA55A2429637700D45CE9;
+			remoteInfo = "SpokenWord Persistence Edit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB5FA55B2429637700D45CE9 /* SpokenWord Persistence Edit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpokenWord Persistence Edit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5FA55E2429637700D45CE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB5FA5602429637700D45CE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB5FA5622429637700D45CE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB5FA5652429637700D45CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB5FA5672429637900D45CE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB5FA56A2429637900D45CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB5FA56C2429637900D45CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5FA5712429637A00D45CE9 /* SpokenWord Persistence EditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpokenWord Persistence EditTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5FA5752429637A00D45CE9 /* SpokenWord_Persistence_EditTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpokenWord_Persistence_EditTests.swift; sourceTree = "<group>"; };
+		FB5FA5772429637A00D45CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB5FA5582429637700D45CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5FA56E2429637A00D45CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB5FA5522429637700D45CE9 = {
+			isa = PBXGroup;
+			children = (
+				FB5FA55D2429637700D45CE9 /* SpokenWord Persistence Edit */,
+				FB5FA5742429637A00D45CE9 /* SpokenWord Persistence EditTests */,
+				FB5FA55C2429637700D45CE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB5FA55C2429637700D45CE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB5FA55B2429637700D45CE9 /* SpokenWord Persistence Edit.app */,
+				FB5FA5712429637A00D45CE9 /* SpokenWord Persistence EditTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB5FA55D2429637700D45CE9 /* SpokenWord Persistence Edit */ = {
+			isa = PBXGroup;
+			children = (
+				FB5FA55E2429637700D45CE9 /* AppDelegate.swift */,
+				FB5FA5602429637700D45CE9 /* SceneDelegate.swift */,
+				FB5FA5622429637700D45CE9 /* ViewController.swift */,
+				FB5FA5642429637700D45CE9 /* Main.storyboard */,
+				FB5FA5672429637900D45CE9 /* Assets.xcassets */,
+				FB5FA5692429637900D45CE9 /* LaunchScreen.storyboard */,
+				FB5FA56C2429637900D45CE9 /* Info.plist */,
+			);
+			path = "SpokenWord Persistence Edit";
+			sourceTree = "<group>";
+		};
+		FB5FA5742429637A00D45CE9 /* SpokenWord Persistence EditTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB5FA5752429637A00D45CE9 /* SpokenWord_Persistence_EditTests.swift */,
+				FB5FA5772429637A00D45CE9 /* Info.plist */,
+			);
+			path = "SpokenWord Persistence EditTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB5FA55A2429637700D45CE9 /* SpokenWord Persistence Edit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5FA57A2429637A00D45CE9 /* Build configuration list for PBXNativeTarget "SpokenWord Persistence Edit" */;
+			buildPhases = (
+				FB5FA5572429637700D45CE9 /* Sources */,
+				FB5FA5582429637700D45CE9 /* Frameworks */,
+				FB5FA5592429637700D45CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpokenWord Persistence Edit";
+			productName = "SpokenWord Persistence Edit";
+			productReference = FB5FA55B2429637700D45CE9 /* SpokenWord Persistence Edit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB5FA5702429637A00D45CE9 /* SpokenWord Persistence EditTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5FA57D2429637A00D45CE9 /* Build configuration list for PBXNativeTarget "SpokenWord Persistence EditTests" */;
+			buildPhases = (
+				FB5FA56D2429637A00D45CE9 /* Sources */,
+				FB5FA56E2429637A00D45CE9 /* Frameworks */,
+				FB5FA56F2429637A00D45CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5FA5732429637A00D45CE9 /* PBXTargetDependency */,
+			);
+			name = "SpokenWord Persistence EditTests";
+			productName = "SpokenWord Persistence EditTests";
+			productReference = FB5FA5712429637A00D45CE9 /* SpokenWord Persistence EditTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB5FA5532429637700D45CE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Travis Mendoza";
+				TargetAttributes = {
+					FB5FA55A2429637700D45CE9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FB5FA5702429637A00D45CE9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FB5FA55A2429637700D45CE9;
+					};
+				};
+			};
+			buildConfigurationList = FB5FA5562429637700D45CE9 /* Build configuration list for PBXProject "SpokenWord Persistence Edit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB5FA5522429637700D45CE9;
+			productRefGroup = FB5FA55C2429637700D45CE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB5FA55A2429637700D45CE9 /* SpokenWord Persistence Edit */,
+				FB5FA5702429637A00D45CE9 /* SpokenWord Persistence EditTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB5FA5592429637700D45CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5FA56B2429637900D45CE9 /* LaunchScreen.storyboard in Resources */,
+				FB5FA5682429637900D45CE9 /* Assets.xcassets in Resources */,
+				FB5FA5662429637700D45CE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5FA56F2429637A00D45CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB5FA5572429637700D45CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5FA5632429637700D45CE9 /* ViewController.swift in Sources */,
+				FB5FA55F2429637700D45CE9 /* AppDelegate.swift in Sources */,
+				FB5FA5612429637700D45CE9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5FA56D2429637A00D45CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5FA5762429637A00D45CE9 /* SpokenWord_Persistence_EditTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB5FA5732429637A00D45CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5FA55A2429637700D45CE9 /* SpokenWord Persistence Edit */;
+			targetProxy = FB5FA5722429637A00D45CE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB5FA5642429637700D45CE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5FA5652429637700D45CE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB5FA5692429637900D45CE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5FA56A2429637900D45CE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB5FA5782429637A00D45CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB5FA5792429637A00D45CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB5FA57B2429637A00D45CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAP7U5QWB5;
+				INFOPLIST_FILE = "SpokenWord Persistence Edit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trmendoz.SpokenWord-Persistence-Edit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB5FA57C2429637A00D45CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAP7U5QWB5;
+				INFOPLIST_FILE = "SpokenWord Persistence Edit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trmendoz.SpokenWord-Persistence-Edit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB5FA57E2429637A00D45CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAP7U5QWB5;
+				INFOPLIST_FILE = "SpokenWord Persistence EditTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trmendoz.SpokenWord-Persistence-EditTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpokenWord Persistence Edit.app/SpokenWord Persistence Edit";
+			};
+			name = Debug;
+		};
+		FB5FA57F2429637A00D45CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAP7U5QWB5;
+				INFOPLIST_FILE = "SpokenWord Persistence EditTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trmendoz.SpokenWord-Persistence-EditTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpokenWord Persistence Edit.app/SpokenWord Persistence Edit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB5FA5562429637700D45CE9 /* Build configuration list for PBXProject "SpokenWord Persistence Edit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5FA5782429637A00D45CE9 /* Debug */,
+				FB5FA5792429637A00D45CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5FA57A2429637A00D45CE9 /* Build configuration list for PBXNativeTarget "SpokenWord Persistence Edit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5FA57B2429637A00D45CE9 /* Debug */,
+				FB5FA57C2429637A00D45CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5FA57D2429637A00D45CE9 /* Build configuration list for PBXNativeTarget "SpokenWord Persistence EditTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5FA57E2429637A00D45CE9 /* Debug */,
+				FB5FA57F2429637A00D45CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB5FA5532429637700D45CE9 /* Project object */;
+}

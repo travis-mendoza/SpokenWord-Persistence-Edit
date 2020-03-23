@@ -15,7 +15,7 @@
 		FB5FA56B2429637900D45CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5FA5692429637900D45CE9 /* LaunchScreen.storyboard */; };
 		FB5FA5762429637A00D45CE9 /* SpokenWord_Persistence_EditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5FA5752429637A00D45CE9 /* SpokenWord_Persistence_EditTests.swift */; };
 		FB5FA5822429641700D45CE9 /* RecognitionTaskStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5FA5812429641700D45CE9 /* RecognitionTaskStatus.swift */; };
-		FB5FA586242967F700D45CE9 /* APPLE LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB5FA585242967F700D45CE9 /* APPLE LICENSE.txt */; };
+		FB5FA586242967F700D45CE9 /* MIT LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB5FA585242967F700D45CE9 /* MIT LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		FB5FA5752429637A00D45CE9 /* SpokenWord_Persistence_EditTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpokenWord_Persistence_EditTests.swift; sourceTree = "<group>"; };
 		FB5FA5772429637A00D45CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5FA5812429641700D45CE9 /* RecognitionTaskStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecognitionTaskStatus.swift; path = ../RecognitionTaskStatus.swift; sourceTree = "<group>"; };
-		FB5FA585242967F700D45CE9 /* APPLE LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "APPLE LICENSE.txt"; sourceTree = "<group>"; };
+		FB5FA585242967F700D45CE9 /* MIT LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "MIT LICENSE.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 		FB5FA58924296F0000D45CE9 /* LICENSE */ = {
 			isa = PBXGroup;
 			children = (
-				FB5FA585242967F700D45CE9 /* APPLE LICENSE.txt */,
+				FB5FA585242967F700D45CE9 /* MIT LICENSE.txt */,
 			);
 			path = LICENSE;
 			sourceTree = "<group>";
@@ -194,7 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB5FA586242967F700D45CE9 /* APPLE LICENSE.txt in Resources */,
+				FB5FA586242967F700D45CE9 /* MIT LICENSE.txt in Resources */,
 				FB5FA56B2429637900D45CE9 /* LaunchScreen.storyboard in Resources */,
 				FB5FA5682429637900D45CE9 /* Assets.xcassets in Resources */,
 				FB5FA5662429637700D45CE9 /* Main.storyboard in Resources */,

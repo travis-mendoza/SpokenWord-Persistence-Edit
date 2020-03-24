@@ -45,8 +45,6 @@ public class ViewController: UIViewController, SFSpeechRecognizerDelegate {
         didSet {
             switch recognitionTaskStatus {
             case .isInactive:
-//                print("Recognition Task is now inactive")
-                
                 // If recognition service has ended, break down its setup so that it is prepared to build and run again
                 inputNode.removeTap(onBus: 0)
                 recognitionRequest = nil
@@ -55,7 +53,6 @@ public class ViewController: UIViewController, SFSpeechRecognizerDelegate {
                 // Begin recognition again if user has not stopped the recording
                 if recognitionIsActive {
                     do {
-//                        print("OOO: Recognition task restarting")
                         try startRecording()
                         setResetTimer()
                     } catch {
@@ -63,8 +60,6 @@ public class ViewController: UIViewController, SFSpeechRecognizerDelegate {
                     }
                 }
             case .isListening:
-//                print("Recognition Task is now listening")
-                
                 // Save time task starts to quantify the time that is lost between tasks
                 timeTaskStartedListening = Date()
                 guard let timeLastTaskStoppedListening = timeTaskStoppedListening else {
@@ -131,7 +126,6 @@ public class ViewController: UIViewController, SFSpeechRecognizerDelegate {
     
     // MARK: Speech-to-Text
     private func startRecording() throws {
-//        print("OOO: call to Start Recording")
         // Cancel the previous task if it's running.
         recognitionTask?.cancel() // Extra precaution
         self.recognitionTask = nil // Extra precaution
@@ -155,7 +149,6 @@ public class ViewController: UIViewController, SFSpeechRecognizerDelegate {
         // Create a recognition task for the speech recognition session.
         // Keep a reference to the task so that it can be canceled.
         recognitionTask = speechRecognizer.recognitionTask(with: recognitionRequest) { result, error in
-//            print("OOO: Call to recognition task completion handler")
             var isFinal = false
             
             // We won't be working with partial results, so this statement only updates the status of the result
@@ -164,7 +157,6 @@ public class ViewController: UIViewController, SFSpeechRecognizerDelegate {
             }
             
             if error != nil || isFinal {
-//                print("OOO: This recognition task is finishing")
                 // Add the recognition result to the text view and scroll to the bottom
                 if let result = result {
                     self.textView.text += result.bestTranscription.formattedString + " "
@@ -177,7 +169,6 @@ public class ViewController: UIViewController, SFSpeechRecognizerDelegate {
                 }
                 // If user has stopped recognition, reactivate the start button so they can begin again if they wish
                 if !self.recognitionIsActive {
-//                    print("OOO: The Start button should now say Start")
                     self.recordButton.isEnabled = true
                     self.recordButton.setTitle("Start Recording", for: [])
                 }
@@ -191,7 +182,6 @@ public class ViewController: UIViewController, SFSpeechRecognizerDelegate {
         inputNode.installTap(onBus: 0, bufferSize: 1024, format: recordingFormat) { (buffer: AVAudioPCMBuffer, when: AVAudioTime) in
             self.recognitionRequest?.append(buffer)
         }
-//        print("OOO: Booting up audioEngine")
         audioEngine.prepare()
         try audioEngine.start()
         recognitionTaskStatus = .isListening
@@ -200,7 +190,6 @@ public class ViewController: UIViewController, SFSpeechRecognizerDelegate {
     
     // MARK: Timing
     func reset(timer: Timer) {
-//        print("OOO: Call to reset")
         // breakdown
         if recognitionIsActive {
             audioEngine.stop()
@@ -211,7 +200,6 @@ public class ViewController: UIViewController, SFSpeechRecognizerDelegate {
     }
     
     func setResetTimer() {
-//        print("OOO: Call to setResetTimer")
         resetTimer = Timer(timeInterval: resetInterval, repeats: false, block: reset(timer:))
         RunLoop.current.add(resetTimer!, forMode: .common)
     }
@@ -232,7 +220,6 @@ public class ViewController: UIViewController, SFSpeechRecognizerDelegate {
     // MARK: Interface Builder actions
     @IBAction func recordButtonTapped() {
         if audioEngine.isRunning {
-//            print("OOO: Record button tapped while audio engine running")
             // Stop recognition service and the timer that would restart it
             resetTimer?.invalidate()
             resetTimer = nil
@@ -242,7 +229,6 @@ public class ViewController: UIViewController, SFSpeechRecognizerDelegate {
             recordButton.isEnabled = false
             recordButton.setTitle("Stopping", for: .disabled)
         } else {
-//            print("OOO: Record button tapped while audio engine inactive")
             do {
                 // Begin recognition service and set the timer that will reset recognition for the purpose of persistence.
                 try startRecording()
